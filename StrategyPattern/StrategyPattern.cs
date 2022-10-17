@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PatternDesign;
 
 ///策略模式：封装变化为接口
 ///把成员方法转化为成员属性
@@ -73,9 +74,9 @@ namespace StrategyPattern
         }
     }
 
-    public class Quack : IQuackBehavior
+    public class NormalQuack : IQuackBehavior
     {
-        void IQuackBehavior.Quack()
+        public void Quack()
         {
             Console.WriteLine("呱呱叫");
         }
@@ -93,7 +94,7 @@ namespace StrategyPattern
         public MallardDuck()
         {
             flyBehavior = new FlyWithWings();
-            quackBehavior = new Quack();
+            quackBehavior = new NormalQuack();
         }
 
         public override void Display()
@@ -117,7 +118,7 @@ namespace StrategyPattern
         }
     }
 
-    class StrategyPatternMain
+    class StrategyPatternMain : IPattern
     {
         public void Main()
         {
