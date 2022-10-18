@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ObserverPattern;
 using StrategyPattern;
+using DecoratorPattern;
 
 namespace PatternDesign
 {
@@ -19,7 +20,8 @@ namespace PatternDesign
         public static void Main()
         {
             //IPattern pattern = new StrategyPatternMain();
-            IPattern pattern = new ObserverPatternMain();
+            //IPattern pattern = new ObserverPatternMain();
+            IPattern pattern = new DecoratorPatternMain();
             pattern.Main();
 
         }

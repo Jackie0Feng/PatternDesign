@@ -161,7 +161,7 @@ namespace ObserverPattern
     }
 
 
-    internal class ObserverPatternMain : IPattern
+    internal class DecoratorPattern : IPattern
     {
         public void Main()
         {
