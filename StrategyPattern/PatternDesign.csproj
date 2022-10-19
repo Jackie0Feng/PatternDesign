@@ -36,7 +36,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryPattern.cs" />
     <Compile Include="DecoratorPattern.cs" />
+    <Compile Include="FactoryPattern.cs" />
     <Compile Include="main.cs" />
     <Compile Include="ObserverPattern.cs" />
     <Compile Include="StrategyPattern.cs" />

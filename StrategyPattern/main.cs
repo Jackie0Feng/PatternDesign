@@ -6,24 +6,26 @@ using System.Threading.Tasks;
 using ObserverPattern;
 using StrategyPattern;
 using DecoratorPattern;
+using FactoryPattern;
+using AbstractFactoryPattern;
 
-namespace PatternDesign
+
+public interface IPattern
 {
-    public interface IPattern
+    void Main();
+}
+
+
+internal class main
+{
+    public static void Main()
     {
-        void Main();
-    }
+        //IPattern pattern = new StrategyPatternMain();
+        //IPattern pattern = new ObserverPatternMain();
+        //IPattern pattern = new DecoratorPatternMain();
+        //IPattern pattern = new FactoryPatternMain();
+        IPattern pattern = new AbstractFactoryPatternMain();
+        pattern.Main();
 
-
-    internal class main
-    {
-        public static void Main()
-        {
-            //IPattern pattern = new StrategyPatternMain();
-            //IPattern pattern = new ObserverPatternMain();
-            IPattern pattern = new DecoratorPatternMain();
-            pattern.Main();
-
-        }
     }
 }

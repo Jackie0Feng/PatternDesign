@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PatternDesign;
 
 ///策略模式：封装变化为接口
 ///把成员方法转化为成员属性
