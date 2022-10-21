@@ -8,6 +8,7 @@ using StrategyPattern;
 using DecoratorPattern;
 using FactoryPattern;
 using AbstractFactoryPattern;
+using SingletonPattern;
 
 
 public interface IPattern
@@ -24,7 +25,8 @@ internal class main
         //IPattern pattern = new ObserverPatternMain();
         //IPattern pattern = new DecoratorPatternMain();
         //IPattern pattern = new FactoryPatternMain();
-        IPattern pattern = new AbstractFactoryPatternMain();
+        //IPattern pattern = new AbstractFactoryPatternMain();
+        IPattern pattern = new SingletonPatternMain();
         pattern.Main();
 
     }

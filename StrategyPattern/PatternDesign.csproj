@@ -41,6 +41,7 @@
     <Compile Include="FactoryPattern.cs" />
     <Compile Include="main.cs" />
     <Compile Include="ObserverPattern.cs" />
+    <Compile Include="SingletonPattern.cs" />
     <Compile Include="StrategyPattern.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
