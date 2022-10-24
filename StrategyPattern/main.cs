@@ -9,6 +9,7 @@ using DecoratorPattern;
 using FactoryPattern;
 using AbstractFactoryPattern;
 using SingletonPattern;
+using CommandPattern;
 
 
 public interface IPattern
@@ -26,7 +27,8 @@ internal class main
         //IPattern pattern = new DecoratorPatternMain();
         //IPattern pattern = new FactoryPatternMain();
         //IPattern pattern = new AbstractFactoryPatternMain();
-        IPattern pattern = new SingletonPatternMain();
+        //IPattern pattern = new SingletonPatternMain();
+        IPattern pattern = new CommandPatternMain();
         pattern.Main();
 
     }
