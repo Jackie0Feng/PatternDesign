@@ -37,8 +37,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactoryPattern.cs" />
+    <Compile Include="AdapterPattern.cs" />
     <Compile Include="CommandPattern.cs" />
     <Compile Include="DecoratorPattern.cs" />
+    <Compile Include="FacadePattern.cs" />
     <Compile Include="FactoryPattern.cs" />
     <Compile Include="main.cs" />
     <Compile Include="ObserverPattern.cs" />
