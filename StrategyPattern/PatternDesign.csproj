@@ -42,6 +42,7 @@
     <Compile Include="DecoratorPattern.cs" />
     <Compile Include="FacadePattern.cs" />
     <Compile Include="FactoryPattern.cs" />
+    <Compile Include="IteratorPattern.cs" />
     <Compile Include="main.cs" />
     <Compile Include="ObserverPattern.cs" />
     <Compile Include="SingletonPattern.cs" />
