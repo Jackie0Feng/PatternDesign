@@ -12,6 +12,7 @@ using SingletonPattern;
 using CommandPattern;
 using AdapterPattern;
 using FacadePattern;
+using TemplatePattern;
 using IteratorPattern;
 
 public interface IPattern
@@ -33,8 +34,9 @@ internal class main
         //IPattern pattern = new CommandPatternMain();
         //IPattern pattern = new AdapterPatternMain();
         //IPattern pattern = new FacadePatternMain();
+        //IPattern pattern = new FacadePatternMain();
+        //IPattern pattern = new TemplatePatternMain();
         IPattern pattern = new IteratorPatternMain();
         pattern.Main();
-
     }
 }
