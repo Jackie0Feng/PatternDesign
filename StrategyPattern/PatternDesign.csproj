@@ -39,6 +39,7 @@
     <Compile Include="AbstractFactoryPattern.cs" />
     <Compile Include="AdapterPattern.cs" />
     <Compile Include="CommandPattern.cs" />
+    <Compile Include="CompositePattern.cs" />
     <Compile Include="DecoratorPattern.cs" />
     <Compile Include="FacadePattern.cs" />
     <Compile Include="FactoryPattern.cs" />

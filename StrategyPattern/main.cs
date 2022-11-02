@@ -14,6 +14,7 @@ using AdapterPattern;
 using FacadePattern;
 using TemplatePattern;
 using IteratorPattern;
+using CompositePattern;
 
 public interface IPattern
 {
@@ -36,7 +37,8 @@ internal class main
         //IPattern pattern = new FacadePatternMain();
         //IPattern pattern = new FacadePatternMain();
         //IPattern pattern = new TemplatePatternMain();
-        IPattern pattern = new IteratorPatternMain();
+        //IPattern pattern = new IteratorPatternMain();
+        IPattern pattern = new CompositePatternMain();
         pattern.Main();
     }
 }

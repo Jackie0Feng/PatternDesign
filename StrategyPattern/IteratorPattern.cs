@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace IteratorPattern
 {
-    interface IIterator
+    public interface IIterator
     {
         bool HasNext();
         object Next();
     }
 
-    interface IAggregate
+    public interface IAggregate
     {
         IIterator CreateIterator();
     }
