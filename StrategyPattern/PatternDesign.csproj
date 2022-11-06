@@ -47,6 +47,7 @@
     <Compile Include="main.cs" />
     <Compile Include="ObserverPattern.cs" />
     <Compile Include="SingletonPattern.cs" />
+    <Compile Include="StatePattern.cs" />
     <Compile Include="StrategyPattern.cs" />
     <Compile Include="TemplatePattern.cs" />
   </ItemGroup>
