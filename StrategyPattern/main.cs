@@ -15,6 +15,7 @@ using FacadePattern;
 using TemplatePattern;
 using IteratorPattern;
 using CompositePattern;
+using StatePattern;
 using MementoPattern;
 
 public interface IPattern
@@ -40,6 +41,7 @@ internal class main
         //IPattern pattern = new TemplatePatternMain();
         //IPattern pattern = new IteratorPatternMain();
         //IPattern pattern = new CompositePatternMain();
+        //IPattern pattern = new StatePatternMain();
         IPattern pattern = new MementoPatternMain();
         pattern.Main();
     }
