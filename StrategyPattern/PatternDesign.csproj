@@ -45,6 +45,7 @@
     <Compile Include="FactoryPattern.cs" />
     <Compile Include="IteratorPattern.cs" />
     <Compile Include="main.cs" />
+    <Compile Include="MementoPattern.cs" />
     <Compile Include="ObserverPattern.cs" />
     <Compile Include="SingletonPattern.cs" />
     <Compile Include="StrategyPattern.cs" />
