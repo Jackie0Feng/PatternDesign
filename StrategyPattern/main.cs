@@ -30,7 +30,7 @@ internal class main
 	{
 		//IPattern pattern = new StrategyPatternMain();
 		//IPattern pattern = new ObserverPatternMain();
-		IPattern pattern = new DecoratorPatternMain();
+		//IPattern pattern = new DecoratorPatternMain();
 		//IPattern pattern = new FactoryPatternMain();
 		//IPattern pattern = new AbstractFactoryPatternMain();
 		//IPattern pattern = new SingletonPatternMain();
@@ -43,6 +43,11 @@ internal class main
 		//IPattern pattern = new CompositePatternMain();
 		//IPattern pattern = new StatePatternMain();
 		//IPattern pattern = new MementoPatternMain();
+		//IPattern pattern = new OriginalStatePattern();
+		IPattern pattern = new EnhancedStatePattern();
 		pattern.Main();
+		Console.WriteLine("————————");
+		IPattern pattern1 = new DefinitiveStatePattern();
+		pattern1.Main();
 	}
 }

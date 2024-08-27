@@ -47,9 +47,11 @@
     <Compile Include="main.cs" />
     <Compile Include="MementoPattern.cs" />
     <Compile Include="ObserverPattern.cs" />
-    <Compile Include="OriginalStatePattern.cs" />
+    <Compile Include="StatePattern\DefinitiveStatePattern.cs" />
+    <Compile Include="StatePattern\EnhancedStatePattern.cs" />
+    <Compile Include="StatePattern\OriginalStatePattern.cs" />
     <Compile Include="SingletonPattern.cs" />
-    <Compile Include="StatePattern.cs" />
+    <Compile Include="StatePattern\StatePattern.cs" />
     <Compile Include="StrategyPattern.cs" />
     <Compile Include="TemplatePattern.cs" />
   </ItemGroup>
