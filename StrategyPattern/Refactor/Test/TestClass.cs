@@ -11,7 +11,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace PatternDesign
+namespace PatternDesign.Refactor.Test
 {
 	public class TestClass
 	{
