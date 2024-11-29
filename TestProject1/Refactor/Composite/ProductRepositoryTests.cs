@@ -51,5 +51,19 @@ namespace PatternDesign.Refactor.Tests
 			List<Product> products = repository.SelectBy(specs);
 			Assert.AreEqual(0, products.Count);
 		}
+
+		[TestMethod()]
+		public void TestFindByRedOrYellowAndUpTenAndSmall()
+		{
+			ProductRepository repository = SetUp();
+			CompositeSpec specs = new CompositeSpec();
+			specs.Add(new OrSpec(new ColorSpec(Color.Red), new ColorSpec(Color.Yellow)));
+			specs.Add(new SizeSpec(EProductSize.Small));
+			specs.Add(new NotSpec(new BelowPriceSpec(10.00f)));
+
+			List<Product> products = repository.SelectBy(specs);
+			Assert.AreEqual(1, products.Count);
+			Assert.IsTrue(products.Contains(_barbieClassic));
+		}
 	}
 }
